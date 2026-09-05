@@ -1,3 +1,7 @@
+> **【项目已停更 / PROJECT ARCHIVED · 2026-09-05】** 上游 RikkaHub Agent 自 v2.4.16 起官方支持简体中文，本项目使命完成，无限期停更存档。
+>
+> New users: please use the official version (Simplified Chinese built-in since v2.4.16): https://github.com/ExTV/rikkahub-agent/releases
+
 <div align="center">
 
 <img src="docs/icon.png" width="96" height="96" alt="RikkaHub Agent" style="border-radius: 24px" />
