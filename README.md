@@ -2,6 +2,12 @@
 
 # RikkaHub Agent 中文共存版
 
+> **本 项目已停更（2026-09-05）**
+>
+> 上游 [RikkaHub Agent](https://github.com/ExTV/rikkahub-agent) 自 v2.4.16 起
+> 官方内置了完整的简体中文支持，本项目的历史使命已经完成，
+> 即日起无限期停更。感谢每一位下载使用过的朋友。
+
 **你的设备，已汉化。**
 
 基于 [RikkaHub Agent](https://github.com/ExTV/rikkahub-agent) 二次开发的中文增强版：全量简体中文本地化、工作区文件导入上限放开至 10GB、独立包名可与官方原版并存安装。所有上游功能与工具能力完整保留。
@@ -10,13 +16,21 @@
 
 ---
 
+## 项目状态：已停更
+
+上游 RikkaHub Agent 于 v2.4.16 版本起官方加入简体中文与繁体中文翻译，本项目立项的初衷（降低中文用户的使用门槛）已由官方解决，继续维护失去意义，故无限期停更。
+
+- 仓库与 Release 保留作为存档，不做删除
+- 现有 v2.4.10 中文版仍可正常下载安装使用，但不会再跟进上游新版本
+- 新用户请直接安装官方版：https://github.com/ExTV/rikkahub-agent/releases （已自带简体中文）
+
 ## 这是什么
 
-上游链路：[RikkaHub](https://github.com/rikkahub/rikkahub)（原版客户端）→ [ExTV/rikkahub-agent](https://github.com/ExTV/rikkahub-agent)（Agent 增强版，80+ 设备工具、工作流、计划任务、内置浏览器、Linux 工作区等）→ 本项目（在其之上的中文版）。
+上游链路：[RikkaHub](https://github.com/rikkahub/rikkahub)（原版客户端）→ [ExTV/rikkahub-agent](https://github.com/ExTV/rikkahub-agent)（Agent 增强版，80+ 设备工具、工作流、计划任务、内置浏览器、Linux 工作区等）→ 本项目（在其之上的中文版，基于 v2.4.10 制作）。
 
-本仓库基于 RikkaHub Agent **v2.4.10** 制作，不改动任何核心功能逻辑，只做本地化与限制放宽。
+不改动任何核心功能逻辑，只做本地化与限制放宽。
 
-## 相对上游改了什么
+## 相对上游（v2.4.10）改了什么
 
 ### 1. 全量中文化
 - 界面资源 2100+ 条目全部翻译为简体中文
@@ -37,11 +51,13 @@
 
 前往 [Releases](../../releases) 下载 APK，直接安装即可。
 
+（再次提醒：官方新版已自带简体中文，新用户建议直接用官方版。）
+
 ## 致谢与免责声明
 
 - 本项目与 RikkaHub 维护者(RE)及 RikkaHub Agent（ExTV）维护者无关，问题请提给本仓库而不是上游
 - 底层客户端、供应商抽象、UI 设计等一切功能归功于上游团队
-- 上游版本更新较快，本分支内容可能落后于上游，请及时关注上游动态
+- 停更后本仓库不再跟进上游更新，遇到问题请优先考虑切换到官方版
 
 ## License
 
